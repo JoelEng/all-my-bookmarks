@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "All My Bookmarks",
+  "version": "1.0",
+
+  "description": "A minimalistic Firefox new tab page, just for your bookmarks",
+
+  "icons": {
+    "48": "icons/icon-48.png"
+  },
+
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+
+  "permissions": ["bookmarks", "theme"]
+}
